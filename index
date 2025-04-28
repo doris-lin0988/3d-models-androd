@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>Camera 3D 預覽</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body style="margin:0; padding:0;">
+  <model-viewer 
+    src="./camera.glb"
+    ar 
+    ar-modes="webxr scene-viewer quick-look" 
+    camera-controls 
+    auto-rotate 
+    style="width: 100vw; height: 100vh;">
+  </model-viewer>
+</body>
+</html>
